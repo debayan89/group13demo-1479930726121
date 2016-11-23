@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: group13demo
+  host: group13demo
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - group13demo-cloudantNoSQLDB
+  - Insights for Twitter-92
